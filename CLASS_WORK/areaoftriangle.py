@@ -10,3 +10,5 @@ for i in range(n):
 
 print("total present:", present)
 print("total absent:", absent)
+
+ ## python_u "CLASS_WORK\areaoftriangle.py"
