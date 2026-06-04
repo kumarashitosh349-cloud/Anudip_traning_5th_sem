@@ -1,0 +1,19 @@
+import math
+
+num = int(input("Enter a number: "))
+original = num
+sum_factorial = 0
+
+# Calculate sum of factorials of digits
+while num > 0:
+    digit = num % 10
+    sum_factorial += math.factorial(digit)
+    num //= 10
+
+# Check if it's a strong number
+if sum_factorial == original:
+    print(f"{original} is a Strong Number")
+else:
+    print(f"{original} is NOT a Strong Number")
+
+   
