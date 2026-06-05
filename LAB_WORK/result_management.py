@@ -15,6 +15,7 @@ elif per >= 75:
     grade = "A"
 elif per >= 60:
     grade = "B"
+    
 elif per >= 40:
     grade = "C"
 else:
