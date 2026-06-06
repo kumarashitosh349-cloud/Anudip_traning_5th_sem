@@ -40,12 +40,12 @@ print(w)
 # 5
 d = m = ch = 0
 for b in bookings:
-    if b[1] == "Delhi":
-        d += 1
-    elif b[1] == "Mumbai":
-        m += 1
-    else:
-        ch += 1
+  if b[1] == "Delhi":
+   d += 1
+  elif b[1] == "Mumbai":
+     m += 1
+else:
+  ch += 1
 
 if d > m and d > ch:
     print("Delhi")
@@ -53,4 +53,3 @@ elif m > d and m > ch:
     print("Mumbai")
 else:
     print("Chennai")
-    

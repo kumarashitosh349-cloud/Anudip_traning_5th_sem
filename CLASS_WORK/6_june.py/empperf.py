@@ -18,14 +18,14 @@ print(c)
 
 h = employees[0]
 for e in employees:
-    if e[2] > h[2]:
+ if e[2] > h[2]:
         h = e
 print(h)
 
 names = []
 for e in employees:
-    if e[2] > 75:
-        names.append(e[1])
+ if e[2] > 75:
+     names.append(e[1])
 print(names)
 
 for e in employees:
