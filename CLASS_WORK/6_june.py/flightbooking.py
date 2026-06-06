@@ -7,19 +7,19 @@ bookings = (
     ("P106", "Delhi", "Waiting")
 )
 
-# 1
+# staus confirmed
 for b in bookings:
     if b[2] == "Confirmed":
         print(b)
 
-# 2
+# number of passangers travell in delhi
 c = 0
 for b in bookings:
     if b[1] == "Delhi":
         c += 1
 print(c)
 
-# 3
+# count waiting, cancel booking 
 con = wait = can = 0
 for b in bookings:
     if b[2] == "Confirmed":
@@ -30,14 +30,14 @@ for b in bookings:
         can += 1
 print(con, wait, can)
 
-# 4
+# list containing pass id with waitlistajs
 w = []
 for b in bookings:
     if b[2] == "Waiting":
         w.append(b[0])
 print(w)
 
-# 5
+# determine which destination has high booking
 d = m = ch = 0
 for b in bookings:
   if b[1] == "Delhi":
