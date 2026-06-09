@@ -1,9 +1,9 @@
 employees = (
-    ("E101", "Anuj", 92),
-    ("E102", "Rahul", 76),
-    ("E103", "Priya", 58),
-    ("E104", "Neha", 88),
-    ("E105", "Amit", 45)
+     ("E101", "Anuj", 92),
+     ("E102", "Rahul", 76),
+     ("E103", "Priya", 58),
+     ("E104", "Neha", 88),
+     ("E105", "Amit", 45)
 )
 #score above 80
 for e in employees:
