@@ -1,0 +1,33 @@
+
+file= open ('first.txt', 'r')
+
+vowels="aeiouAEIOU"
+
+content=file.read()
+
+vowel_count=0
+
+for ch in content:
+    if ch in vowels:
+        vowel_count+=1
+    print("vowels:",vowel_count)
+
+
+count_charactor=0
+for f in first:
+    count_charactor+=1
+    print("total chatactors:",count_charactor) 
+
+
+    # count lines
+f.seek(0)
+lines = f.readlines()
+
+count_line = 0
+for line in lines:
+    count_line = count_line + 1
+
+
+
+
+ 
