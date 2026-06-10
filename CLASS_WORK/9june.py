@@ -1,5 +1,5 @@
 #to import a module
-import interestcalculator
+import interest
 #function to calculate simple interest
 #--- main program ---
 principal = float(input("Enter the principal(in Rs) : : "))
