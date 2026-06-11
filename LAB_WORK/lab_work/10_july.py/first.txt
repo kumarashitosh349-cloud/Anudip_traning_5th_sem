@@ -1,0 +1,3 @@
+f = open("first.txt", "w")   # creates file if not exists
+f.write("Hello, this is my first file.")
+f.close()
